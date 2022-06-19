@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+.left{
+    color: rgb(7, 7, 7);
+    font-size: 25px;
+    font-weight: 900;
+    padding: 1%;
+}
+.custom-btn{
+    background-color: #FF4500;
+    border: none;
+    padding:10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.nav-btn{
+  margin-right: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 5px;
+}
+/* nav css end */
+
+/* poster css */
+
+.poster{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 40px;
+}
+.intro{
+    margin-top: 30px;
+    padding-top: 20px;
+    /* line-height: 50px; */
+}
+.name{
+    padding-bottom: 30px;
+}
+.img img{
+    width: 400px;
+    border-radius: 100%;
+}
+
+.black{
+    font-size: 50px;
+}
+.yellow{
+    font-size: 50px;
+    color: #FFAB0F;
+}
+.intro p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+/* project section */
+
+.project-sec{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 4%;
+    margin-top: 50px;
+    background-color: #eaebed;
+}
+.pro-head{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 80px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.cards{
+    background-color: #fff;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px gray;
+}
+
+
+.cards img{
+    width: 300px;
+    border-radius: 30px;
+    margin: 25px;
+    box-shadow: 1px 1px 10px gray;      
+}
+.pic{
+    display: flex;
+}
+.para{
+    padding: 10px;
+}
+
+.para p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.para a{
+    text-decoration: none;
+    color: #FFAB0F;
+}
+.para a:hover{
+    color: #FF4500;
+}
+.custom-btn:hover{
+    background-color: #FFAB0F;
+}
+footer{
+    background-color: #5F1CE8;
+    padding: 50px 15%;
+}
+.footer-txt{
+    
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    margin-bottom: 20px;
+}
+footer p{
+    font-weight: 100;
+    color: #fff;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer hr{
+    border: 2px solid lightgray;
+}
+
+.cards img:hover{
+    margin: 0px;
+    width: 350px;
+    transition: 1s;
+    border-radius: 10px;
+}

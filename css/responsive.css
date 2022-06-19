@@ -1,0 +1,99 @@
+@media(max-width:1250px){
+    .card{
+        display: block;
+        margin: auto;
+        padding: auto;
+    }
+
+    .cards{
+        margin: auto;
+        padding: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:800px){
+    .poster{
+        display: block;
+    }
+    .img img{
+        display: block;
+        margin-top: 20px;
+        margin: auto;
+        padding: auto;
+    }
+}
+@media(max-width:500px){
+    .cards img:hover{
+        width: 300px;
+    }
+    .cards{
+        width: 300px;
+    }
+    .cards img{
+        width: 250px;
+    }
+    .img img{
+        width: 350px;
+    }
+}
+@media(max-width:375px){
+    .img img{
+        width: 250px;
+    }
+    .cards img:hover{
+        width: 200px;
+    }
+    .cards{
+        width: 200px;
+    }
+    .cards img{
+        width: 150px;
+    }
+    .black, .yellow{
+        font-size: 30px;
+    }
+    .intro p{
+        font-size: 15px;
+    }
+    .footer-txt{
+        display: block;
+    }
+    .footer-copyright{
+        display: block;
+        line-height: 20px;
+    }
+}
+@media(max-width:300px){
+    .img{
+        padding-top: 20px;
+    }
+    .img img{
+        width: 200px;
+    }
+    .cards img:hover{
+        width: 150px;
+    }
+    .cards{
+        width: 150px;
+    }
+    .cards img{
+        width: 125px;
+        margin: 10px;
+    }
+    .nav-btn{
+        margin-right: 5px;
+    }
+    
+}
+@media(max-width:250px){
+    .img img{
+        width: 150px;
+    }
+    .black, .yellow{
+        font-size: 20px;
+    }
+    .intro p{
+        font-size: 12px;
+    }
+}
